@@ -1,0 +1,45 @@
+{
+  "name": "mcp-bottleneck",
+  "version": "0.1.0",
+  "description": "MCP stdio proxy that throttles, retries, coalesces and observes requests to rate-limited servers.",
+  "type": "module",
+  "bin": {
+    "mcp-bottleneck": "bin/mcp-bottleneck.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "bottleneck",
+    "rate-limit",
+    "throttle",
+    "retry",
+    "proxy",
+    "stdio"
+  ],
+  "author": {
+    "name": "Shamil Sultanov",
+    "email": "shamil.amirovich@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bottleneck": "^2.19.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aristocr2t/mcp-bottleneck.git"
+  },
+  "homepage": "https://github.com/aristocr2t/mcp-bottleneck#readme",
+  "bugs": {
+    "url": "https://github.com/aristocr2t/mcp-bottleneck/issues"
+  }
+}
